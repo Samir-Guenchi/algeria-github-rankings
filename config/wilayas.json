@@ -1,0 +1,505 @@
+{
+  "wilayas": [
+    {
+      "code": "01",
+      "name_ar": "أدرار",
+      "name_fr": "Adrar",
+      "name_en": "Adrar",
+      "cities": ["Adrar", "Reggane", "Timimoun"],
+      "search_terms": ["Adrar", "أدرار"]
+    },
+    {
+      "code": "02",
+      "name_ar": "الشلف",
+      "name_fr": "Chlef",
+      "name_en": "Chlef",
+      "cities": ["Chlef", "Ténès", "El Karimia"],
+      "search_terms": ["Chlef", "الشلف"]
+    },
+    {
+      "code": "03",
+      "name_ar": "الأغواط",
+      "name_fr": "Laghouat",
+      "name_en": "Laghouat",
+      "cities": ["Laghouat", "Aflou", "Hassi R'Mel"],
+      "search_terms": ["Laghouat", "الأغواط"]
+    },
+    {
+      "code": "04",
+      "name_ar": "أم البواقي",
+      "name_fr": "Oum El Bouaghi",
+      "name_en": "Oum El Bouaghi",
+      "cities": ["Oum El Bouaghi", "Aïn Beïda", "Aïn M'lila"],
+      "search_terms": ["Oum El Bouaghi", "أم البواقي"]
+    },
+    {
+      "code": "05",
+      "name_ar": "باتنة",
+      "name_fr": "Batna",
+      "name_en": "Batna",
+      "cities": ["Batna", "Barika", "Arris"],
+      "search_terms": ["Batna", "باتنة"]
+    },
+    {
+      "code": "06",
+      "name_ar": "بجاية",
+      "name_fr": "Béjaïa",
+      "name_en": "Bejaia",
+      "cities": ["Béjaïa", "Akbou", "El Kseur"],
+      "search_terms": ["Béjaïa", "Bejaia", "بجاية"]
+    },
+    {
+      "code": "07",
+      "name_ar": "بسكرة",
+      "name_fr": "Biskra",
+      "name_en": "Biskra",
+      "cities": ["Biskra", "Tolga", "Sidi Okba"],
+      "search_terms": ["Biskra", "بسكرة"]
+    },
+    {
+      "code": "08",
+      "name_ar": "بشار",
+      "name_fr": "Béchar",
+      "name_en": "Bechar",
+      "cities": ["Béchar", "Abadla", "Béni Abbès"],
+      "search_terms": ["Béchar", "Bechar", "بشار"]
+    },
+    {
+      "code": "09",
+      "name_ar": "البليدة",
+      "name_fr": "Blida",
+      "name_en": "Blida",
+      "cities": ["Blida", "Boufarik", "Larbaa"],
+      "search_terms": ["Blida", "البليدة"]
+    },
+    {
+      "code": "10",
+      "name_ar": "البويرة",
+      "name_fr": "Bouira",
+      "name_en": "Bouira",
+      "cities": ["Bouira", "Lakhdaria", "Sour El Ghozlane"],
+      "search_terms": ["Bouira", "البويرة"]
+    },
+    {
+      "code": "11",
+      "name_ar": "تمنراست",
+      "name_fr": "Tamanrasset",
+      "name_en": "Tamanrasset",
+      "cities": ["Tamanrasset", "In Salah", "In Guezzam"],
+      "search_terms": ["Tamanrasset", "تمنراست"]
+    },
+    {
+      "code": "12",
+      "name_ar": "تبسة",
+      "name_fr": "Tébessa",
+      "name_en": "Tebessa",
+      "cities": ["Tébessa", "Cheria", "El Ouenza"],
+      "search_terms": ["Tébessa", "Tebessa", "تبسة"]
+    },
+    {
+      "code": "13",
+      "name_ar": "تلمسان",
+      "name_fr": "Tlemcen",
+      "name_en": "Tlemcen",
+      "cities": ["Tlemcen", "Maghnia", "Ghazaouet"],
+      "search_terms": ["Tlemcen", "تلمسان", "Maghnia"]
+    },
+    {
+      "code": "14",
+      "name_ar": "تيارت",
+      "name_fr": "Tiaret",
+      "name_en": "Tiaret",
+      "cities": ["Tiaret", "Sougueur", "Frenda"],
+      "search_terms": ["Tiaret", "تيارت"]
+    },
+    {
+      "code": "15",
+      "name_ar": "تيزي وزو",
+      "name_fr": "Tizi Ouzou",
+      "name_en": "Tizi Ouzou",
+      "cities": ["Tizi Ouzou", "Azazga", "Draa El Mizan"],
+      "search_terms": ["Tizi Ouzou", "تيزي وزو"]
+    },
+    {
+      "code": "16",
+      "name_ar": "الجزائر",
+      "name_fr": "Alger",
+      "name_en": "Algiers",
+      "cities": ["Algiers", "Bab Ezzouar", "Hydra", "Kouba"],
+      "search_terms": ["Alger", "Algiers", "الجزائر"]
+    },
+    {
+      "code": "17",
+      "name_ar": "الجلفة",
+      "name_fr": "Djelfa",
+      "name_en": "Djelfa",
+      "cities": ["Djelfa", "Aïn Oussera", "Messaad"],
+      "search_terms": ["Djelfa", "الجلفة"]
+    },
+    {
+      "code": "18",
+      "name_ar": "جيجل",
+      "name_fr": "Jijel",
+      "name_en": "Jijel",
+      "cities": ["Jijel", "Taher", "El Milia"],
+      "search_terms": ["Jijel", "جيجل"]
+    },
+    {
+      "code": "19",
+      "name_ar": "سطيف",
+      "name_fr": "Sétif",
+      "name_en": "Setif",
+      "cities": ["Sétif", "El Eulma", "Aïn Oulmene"],
+      "search_terms": ["Sétif", "Setif", "سطيف"]
+    },
+    {
+      "code": "20",
+      "name_ar": "سعيدة",
+      "name_fr": "Saïda",
+      "name_en": "Saida",
+      "cities": ["Saïda", "Aïn El Hadjar", "Ouled Brahim"],
+      "search_terms": ["Saïda", "Saida", "سعيدة"]
+    },
+    {
+      "code": "21",
+      "name_ar": "سكيكدة",
+      "name_fr": "Skikda",
+      "name_en": "Skikda",
+      "cities": ["Skikda", "Collo", "Azzaba"],
+      "search_terms": ["Skikda", "سكيكدة"]
+    },
+    {
+      "code": "22",
+      "name_ar": "سيدي بلعباس",
+      "name_fr": "Sidi Bel Abbès",
+      "name_en": "Sidi Bel Abbes",
+      "cities": ["Sidi Bel Abbès", "Telagh", "Ben Badis"],
+      "search_terms": ["Sidi Bel Abbès", "Sidi Bel Abbes", "سيدي بلعباس"]
+    },
+    {
+      "code": "23",
+      "name_ar": "عنابة",
+      "name_fr": "Annaba",
+      "name_en": "Annaba",
+      "cities": ["Annaba", "El Hadjar", "Berrahal"],
+      "search_terms": ["Annaba", "عنابة"]
+    },
+    {
+      "code": "24",
+      "name_ar": "قالمة",
+      "name_fr": "Guelma",
+      "name_en": "Guelma",
+      "cities": ["Guelma", "Héliopolis", "Hammam Debagh"],
+      "search_terms": ["Guelma", "قالمة"]
+    },
+    {
+      "code": "25",
+      "name_ar": "قسنطينة",
+      "name_fr": "Constantine",
+      "name_en": "Constantine",
+      "cities": ["Constantine", "El Khroub", "Aïn Smara"],
+      "search_terms": ["Constantine", "قسنطينة"]
+    },
+    {
+      "code": "26",
+      "name_ar": "المدية",
+      "name_fr": "Médéa",
+      "name_en": "Medea",
+      "cities": ["Médéa", "Berrouaghia", "Ksar El Boukhari"],
+      "search_terms": ["Médéa", "Medea", "المدية"]
+    },
+    {
+      "code": "27",
+      "name_ar": "مستغانم",
+      "name_fr": "Mostaganem",
+      "name_en": "Mostaganem",
+      "cities": ["Mostaganem", "Aïn Tédelès", "Sidi Ali"],
+      "search_terms": ["Mostaganem", "مستغانم"]
+    },
+    {
+      "code": "28",
+      "name_ar": "المسيلة",
+      "name_fr": "M'Sila",
+      "name_en": "M'Sila",
+      "cities": ["M'Sila", "Bou Saâda", "Sidi Aïssa"],
+      "search_terms": ["M'Sila", "المسيلة"]
+    },
+    {
+      "code": "29",
+      "name_ar": "معسكر",
+      "name_fr": "Mascara",
+      "name_en": "Mascara",
+      "cities": ["Mascara", "Sig", "Mohammadia"],
+      "search_terms": ["Mascara", "معسكر"]
+    },
+    {
+      "code": "30",
+      "name_ar": "ورقلة",
+      "name_fr": "Ouargla",
+      "name_en": "Ouargla",
+      "cities": ["Ouargla", "Touggourt", "Hassi Messaoud"],
+      "search_terms": ["Ouargla", "ورقلة"]
+    },
+    {
+      "code": "31",
+      "name_ar": "وهران",
+      "name_fr": "Oran",
+      "name_en": "Oran",
+      "cities": ["Oran", "Es Senia", "Bir El Djir"],
+      "search_terms": ["Oran", "وهران"]
+    },
+    {
+      "code": "32",
+      "name_ar": "البيض",
+      "name_fr": "El Bayadh",
+      "name_en": "El Bayadh",
+      "cities": ["El Bayadh", "Brezina", "Bogtob"],
+      "search_terms": ["El Bayadh", "البيض"]
+    },
+    {
+      "code": "33",
+      "name_ar": "إليزي",
+      "name_fr": "Illizi",
+      "name_en": "Illizi",
+      "cities": ["Illizi", "Djanet", "Bordj Omar Driss"],
+      "search_terms": ["Illizi", "إليزي", "Djanet"]
+    },
+    {
+      "code": "34",
+      "name_ar": "برج بوعريريج",
+      "name_fr": "Bordj Bou Arréridj",
+      "name_en": "Bordj Bou Arreridj",
+      "cities": ["Bordj Bou Arréridj", "Ras El Oued", "Bordj Ghedir"],
+      "search_terms": ["Bordj Bou Arréridj", "Bordj Bou Arreridj", "برج بوعريريج"]
+    },
+    {
+      "code": "35",
+      "name_ar": "بومرداس",
+      "name_fr": "Boumerdès",
+      "name_en": "Boumerdes",
+      "cities": ["Boumerdès", "Dellys", "Thénia"],
+      "search_terms": ["Boumerdès", "Boumerdes", "بومرداس"]
+    },
+    {
+      "code": "36",
+      "name_ar": "الطارف",
+      "name_fr": "El Tarf",
+      "name_en": "El Tarf",
+      "cities": ["El Tarf", "Ben M'Hidi", "Besbes"],
+      "search_terms": ["El Tarf", "الطارف"]
+    },
+    {
+      "code": "37",
+      "name_ar": "تندوف",
+      "name_fr": "Tindouf",
+      "name_en": "Tindouf",
+      "cities": ["Tindouf"],
+      "search_terms": ["Tindouf", "تندوف"]
+    },
+    {
+      "code": "38",
+      "name_ar": "تيسمسيلت",
+      "name_fr": "Tissemsilt",
+      "name_en": "Tissemsilt",
+      "cities": ["Tissemsilt", "Theniet El Had", "Bordj Bounaama"],
+      "search_terms": ["Tissemsilt", "تيسمسيلت"]
+    },
+    {
+      "code": "39",
+      "name_ar": "الوادي",
+      "name_fr": "El Oued",
+      "name_en": "El Oued",
+      "cities": ["El Oued", "Robbah", "Debila"],
+      "search_terms": ["El Oued", "الوادي"]
+    },
+    {
+      "code": "40",
+      "name_ar": "خنشلة",
+      "name_fr": "Khenchela",
+      "name_en": "Khenchela",
+      "cities": ["Khenchela", "Babar", "Chechar"],
+      "search_terms": ["Khenchela", "خنشلة"]
+    },
+    {
+      "code": "41",
+      "name_ar": "سوق أهراس",
+      "name_fr": "Souk Ahras",
+      "name_en": "Souk Ahras",
+      "cities": ["Souk Ahras", "Sedrata", "M'Daourouch"],
+      "search_terms": ["Souk Ahras", "سوق أهراس"]
+    },
+    {
+      "code": "42",
+      "name_ar": "تيبازة",
+      "name_fr": "Tipaza",
+      "name_en": "Tipaza",
+      "cities": ["Tipaza", "Koléa", "Cherchell"],
+      "search_terms": ["Tipaza", "تيبازة"]
+    },
+    {
+      "code": "43",
+      "name_ar": "ميلة",
+      "name_fr": "Mila",
+      "name_en": "Mila",
+      "cities": ["Mila", "Chelghoum Laïd", "Ferdjioua"],
+      "search_terms": ["Mila", "ميلة"]
+    },
+    {
+      "code": "44",
+      "name_ar": "عين الدفلى",
+      "name_fr": "Aïn Defla",
+      "name_en": "Ain Defla",
+      "cities": ["Aïn Defla", "Khemis Miliana", "El Attaf"],
+      "search_terms": ["Aïn Defla", "Ain Defla", "عين الدفلى"]
+    },
+    {
+      "code": "45",
+      "name_ar": "النعامة",
+      "name_fr": "Naâma",
+      "name_en": "Naama",
+      "cities": ["Naâma", "Mécheria", "Aïn Sefra"],
+      "search_terms": ["Naâma", "Naama", "النعامة"]
+    },
+    {
+      "code": "46",
+      "name_ar": "عين تموشنت",
+      "name_fr": "Aïn Témouchent",
+      "name_en": "Ain Temouchent",
+      "cities": ["Aïn Témouchent", "Hammam Bou Hadjar", "Beni Saf"],
+      "search_terms": ["Aïn Témouchent", "Ain Temouchent", "عين تموشنت"]
+    },
+    {
+      "code": "47",
+      "name_ar": "غرداية",
+      "name_fr": "Ghardaïa",
+      "name_en": "Ghardaia",
+      "cities": ["Ghardaïa", "Berriane", "Metlili"],
+      "search_terms": ["Ghardaïa", "Ghardaia", "غرداية"]
+    },
+    {
+      "code": "48",
+      "name_ar": "غليزان",
+      "name_fr": "Relizane",
+      "name_en": "Relizane",
+      "cities": ["Relizane", "Oued Rhiou", "Djidiouia"],
+      "search_terms": ["Relizane", "غليزان"]
+    },
+    {
+      "code": "49",
+      "name_ar": "تيميمون",
+      "name_fr": "Timimoun",
+      "name_en": "Timimoun",
+      "cities": ["Timimoun", "Charouine", "Aougrout"],
+      "search_terms": ["Timimoun", "تيميمون"]
+    },
+    {
+      "code": "50",
+      "name_ar": "برج باجي مختار",
+      "name_fr": "Bordj Badji Mokhtar",
+      "name_en": "Bordj Badji Mokhtar",
+      "cities": ["Bordj Badji Mokhtar", "Timiaouine"],
+      "search_terms": ["Bordj Badji Mokhtar", "برج باجي مختار"]
+    },
+    {
+      "code": "51",
+      "name_ar": "أولاد جلال",
+      "name_fr": "Ouled Djellal",
+      "name_en": "Ouled Djellal",
+      "cities": ["Ouled Djellal", "Sidi Khaled"],
+      "search_terms": ["Ouled Djellal", "أولاد جلال"]
+    },
+    {
+      "code": "52",
+      "name_ar": "بني عباس",
+      "name_fr": "Béni Abbès",
+      "name_en": "Beni Abbes",
+      "cities": ["Béni Abbès", "El Ouata", "Tabelbala"],
+      "search_terms": ["Béni Abbès", "Beni Abbes", "بني عباس"]
+    },
+    {
+      "code": "53",
+      "name_ar": "عين صالح",
+      "name_fr": "In Salah",
+      "name_en": "In Salah",
+      "cities": ["In Salah", "Foggaret Ezzoua"],
+      "search_terms": ["In Salah", "عين صالح"]
+    },
+    {
+      "code": "54",
+      "name_ar": "عين قزام",
+      "name_fr": "In Guezzam",
+      "name_en": "In Guezzam",
+      "cities": ["In Guezzam", "Tin Zaouatine"],
+      "search_terms": ["In Guezzam", "عين قزام"]
+    },
+    {
+      "code": "55",
+      "name_ar": "تقرت",
+      "name_fr": "Touggourt",
+      "name_en": "Touggourt",
+      "cities": ["Touggourt", "Témacine", "Megarine"],
+      "search_terms": ["Touggourt", "تقرت"]
+    },
+    {
+      "code": "56",
+      "name_ar": "جانت",
+      "name_fr": "Djanet",
+      "name_en": "Djanet",
+      "cities": ["Djanet", "Bordj El Haouès"],
+      "search_terms": ["Djanet", "جانت"]
+    },
+    {
+      "code": "57",
+      "name_ar": "المغير",
+      "name_fr": "El M'Ghair",
+      "name_en": "El M'Ghair",
+      "cities": ["El M'Ghair", "Djamaa", "Sidi Amrane"],
+      "search_terms": ["El M'Ghair", "المغير"]
+    },
+    {
+      "code": "58",
+      "name_ar": "المنيعة",
+      "name_fr": "El Meniaa",
+      "name_en": "El Meniaa",
+      "cities": ["El Meniaa", "Hassi Gara", "Hassi Fehal"],
+      "search_terms": ["El Meniaa", "المنيعة"]
+    }
+  ],
+  "ranking_categories": [
+    {
+      "id": "public_contributions",
+      "name": "Public Contributions",
+      "description": "Open source contributions visible to everyone",
+      "weight": 1.0
+    },
+    {
+      "id": "total_contributions",
+      "name": "Total Contributions",
+      "description": "All contributions including private repositories",
+      "weight": 0.8
+    },
+    {
+      "id": "followers",
+      "name": "Followers",
+      "description": "Number of GitHub followers",
+      "weight": 0.6
+    },
+    {
+      "id": "stars",
+      "name": "Repository Stars",
+      "description": "Total stars across all repositories",
+      "weight": 0.7
+    },
+    {
+      "id": "repositories",
+      "name": "Active Repositories",
+      "description": "Number of actively maintained repositories",
+      "weight": 0.5
+    }
+  ],
+  "minimum_thresholds": {
+    "followers": 5,
+    "public_contributions": 10,
+    "repositories": 1
+  }
+}
