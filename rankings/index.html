@@ -3,327 +3,272 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algeria GitHub Rankings - All 69 Wilayas</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            background: #f6f8fa;
-        }
-        
-        header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 3rem 2rem;
-            text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        header p {
-            font-size: 1.2rem;
-            opacity: 0.9;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 0 2rem;
-        }
-        
-        .stats {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        
-        .stat-card {
-            background: white;
-            padding: 1.5rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        
-        .stat-card h3 {
-            color: #667eea;
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        .stat-card p {
-            color: #586069;
-        }
-        
-        .section {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            margin-bottom: 2rem;
-        }
-        
-        .section h2 {
-            color: #24292e;
-            margin-bottom: 1.5rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #667eea;
-        }
-        
-        .links {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1rem;
-        }
-        
-        .link-card {
-            background: #f6f8fa;
-            padding: 1.5rem;
-            border-radius: 6px;
-            border-left: 4px solid #667eea;
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-        
-        .link-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-        
-        .link-card h3 {
-            color: #667eea;
-            margin-bottom: 0.5rem;
-        }
-        
-        .link-card a {
-            color: #0366d6;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        .link-card a:hover {
-            text-decoration: underline;
-        }
-        
-        .wilaya-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-            gap: 0.5rem;
-            margin-top: 1rem;
-        }
-        
-        .wilaya-item {
-            background: #f6f8fa;
-            padding: 0.75rem;
-            border-radius: 4px;
-            text-align: center;
-            font-size: 0.9rem;
-            border: 1px solid #e1e4e8;
-        }
-        
-        .wilaya-item a {
-            color: #24292e;
-            text-decoration: none;
-        }
-        
-        .wilaya-item:hover {
-            background: #667eea;
-        }
-        
-        .wilaya-item:hover a {
-            color: white;
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: #586069;
-            background: white;
-            margin-top: 3rem;
-        }
-        
-        footer a {
-            color: #0366d6;
-            text-decoration: none;
-        }
-        
-        @media (max-width: 768px) {
-            header h1 {
-                font-size: 1.8rem;
-            }
-            
-            .container {
-                padding: 0 1rem;
-            }
-        }
-    </style>
+    <meta name="description" content="Discover top GitHub developers across all 69 Algerian wilayas. Professional rankings with real-time data.">
+    <title>Algeria GitHub Rankings - Top Developers Across 69 Wilayas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Algeria GitHub Rankings</h1>
-        <p>Comprehensive rankings of GitHub developers across all 69 Algerian wilayas</p>
-    </header>
-    
-    <div class="container">
-        <div class="stats">
-            <div class="stat-card">
-                <h3>69</h3>
-                <p>Wilayas Covered</p>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                </svg>
+                <span class="brand-text">Algeria GitHub Rankings</span>
             </div>
-            <div class="stat-card">
-                <h3>5</h3>
-                <p>Ranking Categories</p>
-            </div>
-            <div class="stat-card">
-                <h3>Daily</h3>
-                <p>Auto Updates</p>
-            </div>
-            <div class="stat-card">
-                <h3>Open</h3>
-                <p>Source Project</p>
+            <div class="nav-links">
+                <a href="#rankings" class="nav-link">Rankings</a>
+                <a href="#wilayas" class="nav-link">Wilayas</a>
+                <a href="#stats" class="nav-link">Statistics</a>
+                <a href="https://github.com/Samir-Guenchi/algeria-github-rankings" class="nav-link-cta" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    GitHub
+                </a>
             </div>
         </div>
-        
-        <div class="section">
-            <h2>Quick Access</h2>
-            <div class="links">
-                <div class="link-card">
-                    <h3>National Rankings</h3>
-                    <p><a href="national/README.md">View top developers across Algeria</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>By Category</h3>
-                    <p><a href="by-category/README.md">Browse by contribution type</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>By Wilaya</h3>
-                    <p><a href="by-wilaya/README.md">Explore regional rankings</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>GitHub Repository</h3>
-                    <p><a href="https://github.com/Samir-Guenchi/algeria-github-rankings" target="_blank">View source code</a></p>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section">
-            <h2>Ranking Categories</h2>
-            <div class="links">
-                <div class="link-card">
-                    <h3>Public Contributions</h3>
-                    <p><a href="by-category/public_contributions.md">Open source contributions</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>Total Contributions</h3>
-                    <p><a href="by-category/total_contributions.md">All contributions including private</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>Followers</h3>
-                    <p><a href="by-category/followers.md">Community influence</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>Repository Stars</h3>
-                    <p><a href="by-category/stars.md">Project quality</a></p>
-                </div>
-                <div class="link-card">
-                    <h3>Active Repositories</h3>
-                    <p><a href="by-category/repositories.md">Project maintenance</a></p>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Discover Algeria's
+                    <span class="gradient-text">Top Developers</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Comprehensive rankings of GitHub developers across all 69 Algerian wilayas.
+                    Real-time data, professional insights, and community-driven excellence.
+                </p>
+                <div class="hero-cta">
+                    <a href="#rankings" class="btn btn-primary">
+                        Explore Rankings
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#wilayas" class="btn btn-secondary">
+                        Browse by Wilaya
+                    </a>
                 </div>
             </div>
         </div>
-        
-        <div class="section">
-            <h2>Browse by Wilaya</h2>
-            <div class="wilaya-grid">
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_01.md">01. Adrar</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_02.md">02. Chlef</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_03.md">03. Laghouat</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_04.md">04. Oum El Bouaghi</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_05.md">05. Batna</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_06.md">06. Béjaïa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_07.md">07. Biskra</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_08.md">08. Béchar</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_09.md">09. Blida</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_10.md">10. Bouira</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_11.md">11. Tamanrasset</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_12.md">12. Tébessa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_13.md">13. Tlemcen</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_14.md">14. Tiaret</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_15.md">15. Tizi Ouzou</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_16.md">16. Alger</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_17.md">17. Djelfa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_18.md">18. Jijel</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_19.md">19. Sétif</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_20.md">20. Saïda</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_21.md">21. Skikda</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_22.md">22. Sidi Bel Abbès</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_23.md">23. Annaba</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_24.md">24. Guelma</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_25.md">25. Constantine</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_26.md">26. Médéa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_27.md">27. Mostaganem</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_28.md">28. M'Sila</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_29.md">29. Mascara</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_30.md">30. Ouargla</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_31.md">31. Oran</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_32.md">32. El Bayadh</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_33.md">33. Illizi</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_34.md">34. Bordj Bou Arréridj</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_35.md">35. Boumerdès</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_36.md">36. El Tarf</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_37.md">37. Tindouf</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_38.md">38. Tissemsilt</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_39.md">39. El Oued</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_40.md">40. Khenchela</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_41.md">41. Souk Ahras</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_42.md">42. Tipaza</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_43.md">43. Mila</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_44.md">44. Aïn Defla</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_45.md">45. Naâma</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_46.md">46. Aïn Témouchent</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_47.md">47. Ghardaïa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_48.md">48. Relizane</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_49.md">49. Timimoun</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_50.md">50. Bordj Badji Mokhtar</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_51.md">51. Ouled Djellal</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_52.md">52. Béni Abbès</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_53.md">53. In Salah</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_54.md">54. In Guezzam</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_55.md">55. Touggourt</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_56.md">56. Djanet</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_57.md">57. El M'Ghair</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_58.md">58. El Meniaa</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_59.md">59. Aflou</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_60.md">60. Barika</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_61.md">61. Ksar Chellala</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_62.md">62. Messaad</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_63.md">63. Aïn Oussara</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_64.md">64. Bou Saâda</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_65.md">65. El Abiodh Sidi Cheikh</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_66.md">66. El Kantara</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_67.md">67. Bir El Ater</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_68.md">68. Ksar El Boukhari</a></div>
-                <div class="wilaya-item"><a href="by-wilaya/wilaya_69.md">69. El Aricha</a></div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value" data-target="1000">0</div>
+                        <div class="stat-label">Developers Tracked</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">69</div>
+                        <div class="stat-label">Wilayas Covered</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">5</div>
+                        <div class="stat-label">Ranking Categories</div>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <div class="stat-content">
+                        <div class="stat-value">Daily</div>
+                        <div class="stat-label">Auto Updates</div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    
-    <footer>
-        <p>Built with HCI principles by <a href="https://github.com/Samir-Guenchi" target="_blank">Samir Guenchi</a></p>
-        <p>ENSIA - École Nationale Supérieure d'Informatique et d'Analyse des Systèmes</p>
-        <p><a href="https://github.com/Samir-Guenchi/algeria-github-rankings" target="_blank">View on GitHub</a> | 
-           <a href="mailto:samir.guenchi@ensia.edu.dz">Contact</a></p>
+    </section>
+
+
+    <!-- Rankings Section -->
+    <section id="rankings" class="rankings-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Top Rankings</h2>
+                <p class="section-subtitle">Explore developers by different categories and metrics</p>
+            </div>
+
+            <div class="rankings-grid">
+                <a href="by-category/public_contributions.md" class="ranking-card">
+                    <div class="ranking-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="8.5" cy="7" r="4"/>
+                            <line x1="20" y1="8" x2="20" y2="14"/>
+                            <line x1="23" y1="11" x2="17" y2="11"/>
+                        </svg>
+                    </div>
+                    <h3 class="ranking-title">Public Contributions</h3>
+                    <p class="ranking-description">Open source contributions and community impact</p>
+                    <div class="ranking-arrow">→</div>
+                </a>
+
+                <a href="by-category/followers.md" class="ranking-card">
+                    <div class="ranking-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="ranking-title">Followers</h3>
+                    <p class="ranking-description">Community influence and developer reach</p>
+                    <div class="ranking-arrow">→</div>
+                </a>
+
+                <a href="by-category/stars.md" class="ranking-card">
+                    <div class="ranking-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="ranking-title">Repository Stars</h3>
+                    <p class="ranking-description">Project quality and community appreciation</p>
+                    <div class="ranking-arrow">→</div>
+                </a>
+
+                <a href="by-category/repositories.md" class="ranking-card">
+                    <div class="ranking-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="ranking-title">Active Repositories</h3>
+                    <p class="ranking-description">Project maintenance and development activity</p>
+                    <div class="ranking-arrow">→</div>
+                </a>
+
+                <a href="national/README.md" class="ranking-card ranking-card-featured">
+                    <div class="ranking-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="ranking-title">National Rankings</h3>
+                    <p class="ranking-description">Top developers across all of Algeria</p>
+                    <div class="ranking-arrow">→</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wilayas Section -->
+    <section id="wilayas" class="wilayas-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Browse by Wilaya</h2>
+                <p class="section-subtitle">Explore developers from all 69 Algerian wilayas</p>
+            </div>
+
+            <div class="search-box">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.35-4.35"/>
+                </svg>
+                <input type="text" id="wilayaSearch" placeholder="Search wilaya by name or code..." class="search-input">
+            </div>
+
+            <div class="wilayas-grid" id="wilayasGrid">
+                <!-- Wilayas will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Algeria GitHub Rankings</h3>
+                    <p class="footer-text">
+                        Comprehensive rankings of GitHub developers across all 69 Algerian wilayas.
+                        Built with HCI principles and modern web standards.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#rankings">Rankings</a></li>
+                        <li><a href="#wilayas">Wilayas</a></li>
+                        <li><a href="national/README.md">National</a></li>
+                        <li><a href="https://github.com/Samir-Guenchi/algeria-github-rankings">GitHub</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="by-category/public_contributions.md">Contributions</a></li>
+                        <li><a href="by-category/followers.md">Followers</a></li>
+                        <li><a href="by-category/stars.md">Stars</a></li>
+                        <li><a href="by-category/repositories.md">Repositories</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">About</h4>
+                    <p class="footer-text">
+                        Built by <a href="https://github.com/Samir-Guenchi" class="footer-link">Samir Guenchi</a><br>
+                        ENSIA - Algeria<br>
+                        <a href="mailto:samir.guenchi@ensia.edu.dz" class="footer-link">samir.guenchi@ensia.edu.dz</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Algeria GitHub Rankings. Open Source Project.</p>
+                <p>Last Updated: <span id="lastUpdate">Loading...</span></p>
+            </div>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
