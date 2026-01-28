@@ -463,6 +463,94 @@
       "name_en": "El Meniaa",
       "cities": ["El Meniaa", "Hassi Gara", "Hassi Fehal"],
       "search_terms": ["El Meniaa", "المنيعة"]
+    },
+    {
+      "code": "59",
+      "name_ar": "أفلو",
+      "name_fr": "Aflou",
+      "name_en": "Aflou",
+      "cities": ["Aflou"],
+      "search_terms": ["Aflou", "أفلو"]
+    },
+    {
+      "code": "60",
+      "name_ar": "بريكة",
+      "name_fr": "Barika",
+      "name_en": "Barika",
+      "cities": ["Barika"],
+      "search_terms": ["Barika", "بريكة"]
+    },
+    {
+      "code": "61",
+      "name_ar": "قصر الشلالة",
+      "name_fr": "Ksar Chellala",
+      "name_en": "Ksar Chellala",
+      "cities": ["Ksar Chellala"],
+      "search_terms": ["Ksar Chellala", "قصر الشلالة"]
+    },
+    {
+      "code": "62",
+      "name_ar": "مسعد",
+      "name_fr": "Messaad",
+      "name_en": "Messaad",
+      "cities": ["Messaad"],
+      "search_terms": ["Messaad", "مسعد"]
+    },
+    {
+      "code": "63",
+      "name_ar": "عين وسارة",
+      "name_fr": "Aïn Oussara",
+      "name_en": "Ain Oussara",
+      "cities": ["Aïn Oussara"],
+      "search_terms": ["Aïn Oussara", "Ain Oussara", "عين وسارة"]
+    },
+    {
+      "code": "64",
+      "name_ar": "بوسعادة",
+      "name_fr": "Bou Saâda",
+      "name_en": "Bou Saada",
+      "cities": ["Bou Saâda"],
+      "search_terms": ["Bou Saâda", "Bou Saada", "بوسعادة"]
+    },
+    {
+      "code": "65",
+      "name_ar": "الأبيض سيدي الشيخ",
+      "name_fr": "El Abiodh Sidi Cheikh",
+      "name_en": "El Abiodh Sidi Cheikh",
+      "cities": ["El Abiodh Sidi Cheikh"],
+      "search_terms": ["El Abiodh Sidi Cheikh", "الأبيض سيدي الشيخ"]
+    },
+    {
+      "code": "66",
+      "name_ar": "القنطرة",
+      "name_fr": "El Kantara",
+      "name_en": "El Kantara",
+      "cities": ["El Kantara"],
+      "search_terms": ["El Kantara", "القنطرة"]
+    },
+    {
+      "code": "67",
+      "name_ar": "بئر العاتر",
+      "name_fr": "Bir El Ater",
+      "name_en": "Bir El Ater",
+      "cities": ["Bir El Ater"],
+      "search_terms": ["Bir El Ater", "بئر العاتر"]
+    },
+    {
+      "code": "68",
+      "name_ar": "قصر البخاري",
+      "name_fr": "Ksar El Boukhari",
+      "name_en": "Ksar El Boukhari",
+      "cities": ["Ksar El Boukhari"],
+      "search_terms": ["Ksar El Boukhari", "قصر البخاري"]
+    },
+    {
+      "code": "69",
+      "name_ar": "العريشة",
+      "name_fr": "El Aricha",
+      "name_en": "El Aricha",
+      "cities": ["El Aricha"],
+      "search_terms": ["El Aricha", "العريشة"]
     }
   ],
   "ranking_categories": [

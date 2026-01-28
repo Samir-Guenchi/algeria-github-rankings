@@ -207,6 +207,8 @@ GET /api/v1/stats/overview
 
 ## All 69 Wilayas Covered
 
+**Original 48 Wilayas (1984):**
+
 01. Adrar | 02. Chlef | 03. Laghouat | 04. Oum El Bouaghi | 05. Batna
 06. Béjaïa | 07. Biskra | 08. Béchar | 09. Blida | 10. Bouira
 11. Tamanrasset | 12. Tébessa | 13. Tlemcen | 14. Tiaret | 15. Tizi Ouzou
@@ -216,11 +218,15 @@ GET /api/v1/stats/overview
 31. Oran | 32. El Bayadh | 33. Illizi | 34. Bordj Bou Arréridj | 35. Boumerdès
 36. El Tarf | 37. Tindouf | 38. Tissemsilt | 39. El Oued | 40. Khenchela
 41. Souk Ahras | 42. Tipaza | 43. Mila | 44. Aïn Defla | 45. Naâma
-46. Aïn Témouchent | 47. Ghardaïa | 48. Relizane | 49. Timimoun | 50. Bordj Badji Mokhtar
-51. Ouled Djellal | 52. Béni Abbès | 53. In Salah | 54. In Guezzam | 55. Touggourt
-56. Djanet | 57. El M'Ghair | 58. El Meniaa | 59. Ouargla | 60. Timimoun
-61. Bordj Badji Mokhtar | 62. Ouled Djellal | 63. Béni Abbès | 64. In Salah | 65. In Guezzam
-66. Touggourt | 67. Djanet | 68. El M'Ghair | 69. El Meniaa
+46. Aïn Témouchent | 47. Ghardaïa | 48. Relizane
+
+**New Wilayas (2019-2021):**
+
+49. Timimoun | 50. Bordj Badji Mokhtar | 51. Ouled Djellal | 52. Béni Abbès | 53. In Salah
+54. In Guezzam | 55. Touggourt | 56. Djanet | 57. El M'Ghair | 58. El Meniaa
+59. Aflou | 60. Barika | 61. Ksar Chellala | 62. Messaad | 63. Aïn Oussara
+64. Bou Saâda | 65. El Abiodh Sidi Cheikh | 66. El Kantara | 67. Bir El Ater
+68. Ksar El Boukhari | 69. El Aricha
 
 ---
 
